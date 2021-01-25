@@ -1,0 +1,18 @@
+some commands and what we are using :
+git remote -v : you can view all the remote URLs next to their corresponding short names
+git remote add shortname url  :   To create a new remote Git repository with a short name
+git fetch [remote-name]  :  Fetching entails pulling data that you don’t have from a remote project 
+git fetch  :  solely pulls new data to a local repository; it does not merge changes with or modify your local work
+git push origin master  :  This command pushes committed changes from your local “master” branch upstream to the “origin” server
+git commit --amend : when you need to alter a commit message or forgot to add some files
+
+
+Branching  :
+A collaborator can create a branch, work on it and save commit snapshots within it, switch between various branches, and merge changes
+commands for Branch  :
+git branch test :  creates a new branch named “test” that points toward your most recent commit
+git checkout test : This command moves the HEAD pointer to the test branch
+git checkout -b test2  : To simultaneously create a new branch and switch to it
+git branch : You can list available branches
+
+ 
